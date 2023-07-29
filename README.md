@@ -1,7 +1,8 @@
 注意：我不会维护libtimesu，因为我的工作中心在libsuu，此版本即为终版。
+
 # libsu
 
-[![](https://jitpack.io/v/topjohnwu/libsu.svg)](https://jitpack.io/#topjohnwu/libsu)
+[![](https://jitpack.io/v/4accccc/libtimesu.svg)](https://jitpack.io/#4acccccc/libtimesu)
 
 An Android library providing a complete solution for apps using root permissions.
 
@@ -28,13 +29,13 @@ dependencies {
     def libsuVersion = '5.2.0'
 
     // The core module that provides APIs to a shell
-    implementation "com.github.topjohnwu.libsu:core:${libsuVersion}"
+    implementation "com.github.4accccc.libtimesu:core:${libsuVersion}"
 
     // Optional: APIs for creating root services. Depends on ":core"
-    implementation "com.github.topjohnwu.libsu:service:${libsuVersion}"
+    implementation "com.github.4accccc.libtimesu:service:${libsuVersion}"
 
     // Optional: Provides remote file system support
-    implementation "com.github.topjohnwu.libsu:nio:${libsuVersion}"
+    implementation "com.github.4accccc.libtimesu:nio:${libsuVersion}"
 }
 ```
 
