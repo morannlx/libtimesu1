@@ -1,3 +1,4 @@
+注意：我不会维护libtimesu，因为我的工作中心在libsuu，此版本即为终版。
 # libsu
 
 [![](https://jitpack.io/v/topjohnwu/libsu.svg)](https://jitpack.io/#topjohnwu/libsu)
