@@ -1,4 +1,4 @@
-注意：我不会维护libtimesu，因为我的工作中心在libsuu，此版本即为终版。
+由moran维护
 
 # libsu
 
