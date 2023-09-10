@@ -5,14 +5,16 @@ plugins {
 group="com.github.topjohnwu.libsu"
 
 android {
-    namespace = "com.topjohnwu.superuser.io"
+    namespace = "com.topjohnwu.superuser.nio"
     defaultConfig {
         minSdk = 21
+    }
+    buildFeatures {
+        aidl = true
     }
 }
 
 dependencies {
     compileOnly("androidx.annotation:annotation:1.6.0")
-    api(project(":core"))
-    api(project(":nio"))
+    javadocDeps("androidx.annotation:annotation:1.6.0")
 }
